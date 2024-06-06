@@ -1,0 +1,306 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1717669133046' stop='1717669158150'>
+    <name>Buying a Product</name>
+    <title>Buying a Product</title>
+    <test-cases>
+        <test-case start='1717669133398' status='passed' stop='1717669158110'>
+            <name>User Logged in</name>
+            <title>User Logged in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1717669133677' status='passed' stop='1717669136367'>
+                    <name>Given I visit the website ""</name>
+                    <title>Given I visit the website ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669133677' status='passed' stop='1717669134361'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669134361' status='passed' stop='1717669134364'>
+                            <name>I see "Swag Labs"</name>
+                            <title>I see "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669134364' status='passed' stop='1717669136365'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669136367' status='passed' stop='1717669139161'>
+                    <name>When I Login with valid credentials ""</name>
+                    <title>When I Login with valid credentials ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669136367' status='passed' stop='1717669136709'>
+                            <name>I fill field "user-name", "standard_user"</name>
+                            <title>I fill field "user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669136709' status='passed' stop='1717669136985'>
+                            <name>I fill field "password", "secret_sauce"</name>
+                            <title>I fill field "password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669136986' status='passed' stop='1717669137159'>
+                            <name>I click "Login"</name>
+                            <title>I click "Login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669137160' status='passed' stop='1717669139161'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669139161' status='passed' stop='1717669141173'>
+                    <name>Then I should be able to see the dashboard ""</name>
+                    <title>Then I should be able to see the dashboard ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669139161' status='passed' stop='1717669139170'>
+                            <name>I see "Swag Labs"</name>
+                            <title>I see "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669139170' status='passed' stop='1717669141172'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669141173' status='passed' stop='1717669143355'>
+                    <name>When I choose one Product ""</name>
+                    <title>When I choose one Product ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669141174' status='passed' stop='1717669141182'>
+                            <name>I see "Products"</name>
+                            <title>I see "Products"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669141182' status='passed' stop='1717669141353'>
+                            <name>I click "div.inventory_item_name "</name>
+                            <title>I click "div.inventory_item_name "</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669141353' status='passed' stop='1717669143355'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669143355' status='passed' stop='1717669145368'>
+                    <name>Then I should be able to see details of the product ""</name>
+                    <title>Then I should be able to see details of the product ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669143355' status='passed' stop='1717669143365'>
+                            <name>I see element "div.inventory_details_price"</name>
+                            <title>I see element "div.inventory_details_price"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669143366' status='passed' stop='1717669145367'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669145368' status='passed' stop='1717669147661'>
+                    <name>When I click on Add to cart ""</name>
+                    <title>When I click on Add to cart ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669145368' status='passed' stop='1717669145508'>
+                            <name>I click "Add to cart"</name>
+                            <title>I click "Add to cart"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669145509' status='passed' stop='1717669147510'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669147510' status='passed' stop='1717669147661'>
+                            <name>I click "a.shopping_cart_link"</name>
+                            <title>I click "a.shopping_cart_link"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669147661' status='passed' stop='1717669149668'>
+                    <name>Then I should see the cart page ""</name>
+                    <title>Then I should see the cart page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669147661' status='passed' stop='1717669147665'>
+                            <name>I see "Your Cart"</name>
+                            <title>I see "Your Cart"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669147666' status='passed' stop='1717669149667'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669149668' status='passed' stop='1717669151819'>
+                    <name>When I click on Checkout ""</name>
+                    <title>When I click on Checkout ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669149668' status='passed' stop='1717669149814'>
+                            <name>I click "Checkout"</name>
+                            <title>I click "Checkout"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669149814' status='passed' stop='1717669149817'>
+                            <name>I see "Checkout: Your Information"</name>
+                            <title>I see "Checkout: Your Information"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669149817' status='passed' stop='1717669151819'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669151819' status='passed' stop='1717669153394'>
+                    <name>Then I fill personal details ""</name>
+                    <title>Then I fill personal details ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669151820' status='passed' stop='1717669152011'>
+                            <name>I fill field "First Name", "Rohan"</name>
+                            <title>I fill field "First Name", "Rohan"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669152011' status='passed' stop='1717669152200'>
+                            <name>I fill field "Last Name", "Patel"</name>
+                            <title>I fill field "Last Name", "Patel"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669152200' status='passed' stop='1717669152392'>
+                            <name>I fill field "Zip/Postal Code", "123456"</name>
+                            <title>I fill field "Zip/Postal Code", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669152393' status='passed' stop='1717669153394'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669153394' status='passed' stop='1717669154812'>
+                    <name>When I finish the process ""</name>
+                    <title>When I finish the process ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669153394' status='passed' stop='1717669153529'>
+                            <name>I click "Continue"</name>
+                            <title>I click "Continue"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669153529' status='passed' stop='1717669153534'>
+                            <name>I see "Overview"</name>
+                            <title>I see "Overview"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669153534' status='passed' stop='1717669154536'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669154536' status='passed' stop='1717669154677'>
+                            <name>I click "Finish"</name>
+                            <title>I click "Finish"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669154677' status='passed' stop='1717669154812'>
+                            <name>I click "Back Home"</name>
+                            <title>I click "Back Home"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669154812' status='passed' stop='1717669158110'>
+                    <name>Then I should Logout ""</name>
+                    <title>Then I should Logout ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669154812' status='passed' stop='1717669154962'>
+                            <name>I click "button#react-burger-menu-btn"</name>
+                            <title>I click "button#react-burger-menu-btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669154962' status='passed' stop='1717669155963'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669155963' status='passed' stop='1717669156109'>
+                            <name>I click "Logout"</name>
+                            <title>I click "Logout"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669156109' status='passed' stop='1717669158109'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

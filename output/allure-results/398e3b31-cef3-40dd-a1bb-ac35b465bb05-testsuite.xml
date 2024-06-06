@@ -1,0 +1,171 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1717669062028' stop='1717669076759'>
+    <name>Buying a Product</name>
+    <title>Buying a Product</title>
+    <test-cases>
+        <test-case start='1717669062390' status='failed' stop='1717669076662'>
+            <name>User Logged in</name>
+            <title>User Logged in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1717669062799' status='passed' stop='1717669065511'>
+                    <name>Given I visit the website ""</name>
+                    <title>Given I visit the website ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669062800' status='passed' stop='1717669063504'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669063505' status='passed' stop='1717669063508'>
+                            <name>I see "Swag Labs"</name>
+                            <title>I see "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669063508' status='passed' stop='1717669065510'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669065511' status='passed' stop='1717669068293'>
+                    <name>When I Login with valid credentials ""</name>
+                    <title>When I Login with valid credentials ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669065511' status='passed' stop='1717669065817'>
+                            <name>I fill field "user-name", "standard_user"</name>
+                            <title>I fill field "user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669065817' status='passed' stop='1717669066118'>
+                            <name>I fill field "password", "secret_sauce"</name>
+                            <title>I fill field "password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669066118' status='passed' stop='1717669066291'>
+                            <name>I click "Login"</name>
+                            <title>I click "Login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669066291' status='passed' stop='1717669068292'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669068293' status='passed' stop='1717669070305'>
+                    <name>Then I should be able to see the dashboard ""</name>
+                    <title>Then I should be able to see the dashboard ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669068293' status='passed' stop='1717669068302'>
+                            <name>I see "Swag Labs"</name>
+                            <title>I see "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669068302' status='passed' stop='1717669070304'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669070305' status='passed' stop='1717669072487'>
+                    <name>When I choose one Product ""</name>
+                    <title>When I choose one Product ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669070305' status='passed' stop='1717669070313'>
+                            <name>I see "Products"</name>
+                            <title>I see "Products"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669070313' status='passed' stop='1717669070485'>
+                            <name>I click "div.inventory_item_name "</name>
+                            <title>I click "div.inventory_item_name "</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669070485' status='passed' stop='1717669072487'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669072487' status='passed' stop='1717669074500'>
+                    <name>Then I should be able to see details of the product ""</name>
+                    <title>Then I should be able to see details of the product ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669072488' status='passed' stop='1717669072497'>
+                            <name>I see element "div.inventory_details_price"</name>
+                            <title>I see element "div.inventory_details_price"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669072497' status='passed' stop='1717669074500'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717669074500' status='failed' stop='1717669076662'>
+                    <name>When I click on Add to cart ""</name>
+                    <title>When I click on Add to cart ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717669074500' status='passed' stop='1717669074659'>
+                            <name>I click "a.shopping_cart_link"</name>
+                            <title>I click "a.shopping_cart_link"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669074660' status='passed' stop='1717669076660'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717669076661' status='failed' stop='1717669076661'>
+                            <name>I click </name>
+                            <title>I click </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='eb76bf10-2723-4665-a09a-00f6fc2340ba-attachment.png' type='image/png' size='28127'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'react')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'react')
+                    at Playwright.findClickable (/Users/MokshaShah/Documents/Final/Run/node_modules/codeceptjs/lib/helper/Playwright.js:3399:15)
+                    at Playwright.proceedClick (/Users/MokshaShah/Documents/Final/Run/node_modules/codeceptjs/lib/helper/Playwright.js:3371:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

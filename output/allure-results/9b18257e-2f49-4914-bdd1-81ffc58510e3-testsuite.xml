@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1717668774150' stop='1717668783898'>
+    <name>Buying a Product</name>
+    <title>Buying a Product</title>
+    <test-cases>
+        <test-case start='1717668774508' status='failed' stop='1717668783755'>
+            <name>User Logged in</name>
+            <title>User Logged in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1717668774943' status='passed' stop='1717668777764'>
+                    <name>Given I visit the website ""</name>
+                    <title>Given I visit the website ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717668774943' status='passed' stop='1717668775758'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668775758' status='passed' stop='1717668775761'>
+                            <name>I see "Swag Labs"</name>
+                            <title>I see "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668775761' status='passed' stop='1717668777763'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717668777764' status='passed' stop='1717668780578'>
+                    <name>When I Login with valid credentials ""</name>
+                    <title>When I Login with valid credentials ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717668777764' status='passed' stop='1717668778074'>
+                            <name>I fill field "user-name", "standard_user"</name>
+                            <title>I fill field "user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668778075' status='passed' stop='1717668778403'>
+                            <name>I fill field "password", "secret_sauce"</name>
+                            <title>I fill field "password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668778403' status='passed' stop='1717668778576'>
+                            <name>I click "Login"</name>
+                            <title>I click "Login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668778576' status='passed' stop='1717668780578'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717668780578' status='passed' stop='1717668782589'>
+                    <name>Then I should be able to see the dashboard ""</name>
+                    <title>Then I should be able to see the dashboard ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717668780578' status='passed' stop='1717668780585'>
+                            <name>I see "Swag Labs"</name>
+                            <title>I see "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668780586' status='passed' stop='1717668782588'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717668782589' status='failed' stop='1717668783754'>
+                    <name>When I choose one Product ""</name>
+                    <title>When I choose one Product ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717668782590' status='failed' stop='1717668783754'>
+                            <name>I click "Suace Labs Backpack"</name>
+                            <title>I click "Suace Labs Backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='7a16ce00-00bb-4081-82f3-c3e998836b6f-attachment.png' type='image/png' size='245707'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "Suace Labs Backpack" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "Suace Labs Backpack" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/MokshaShah/Documents/Final/Run/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)
+                    at assertElementExists (/Users/MokshaShah/Documents/Final/Run/node_modules/codeceptjs/lib/helper/Playwright.js:3613:11)
+                    at Playwright.proceedClick (/Users/MokshaShah/Documents/Final/Run/node_modules/codeceptjs/lib/helper/Playwright.js:3375:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

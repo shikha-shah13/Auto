@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1717668820020' stop='1717668829496'>
+    <name>Buying a Product</name>
+    <title>Buying a Product</title>
+    <test-cases>
+        <test-case start='1717668820395' status='failed' stop='1717668829364'>
+            <name>User Logged in</name>
+            <title>User Logged in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1717668820660' status='passed' stop='1717668823384'>
+                    <name>Given I visit the website ""</name>
+                    <title>Given I visit the website ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717668820660' status='passed' stop='1717668821374'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668821374' status='passed' stop='1717668821380'>
+                            <name>I see "Swag Labs"</name>
+                            <title>I see "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668821380' status='passed' stop='1717668823383'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717668823384' status='passed' stop='1717668826193'>
+                    <name>When I Login with valid credentials ""</name>
+                    <title>When I Login with valid credentials ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717668823384' status='passed' stop='1717668823735'>
+                            <name>I fill field "user-name", "standard_user"</name>
+                            <title>I fill field "user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668823735' status='passed' stop='1717668824017'>
+                            <name>I fill field "password", "secret_sauce"</name>
+                            <title>I fill field "password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668824018' status='passed' stop='1717668824191'>
+                            <name>I click "Login"</name>
+                            <title>I click "Login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668824191' status='passed' stop='1717668826193'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717668826193' status='passed' stop='1717668828203'>
+                    <name>Then I should be able to see the dashboard ""</name>
+                    <title>Then I should be able to see the dashboard ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717668826193' status='passed' stop='1717668826201'>
+                            <name>I see "Swag Labs"</name>
+                            <title>I see "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668826201' status='passed' stop='1717668828203'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1717668828203' status='failed' stop='1717668829364'>
+                    <name>When I choose one Product ""</name>
+                    <title>When I choose one Product ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1717668828203' status='passed' stop='1717668828209'>
+                            <name>I see "Products"</name>
+                            <title>I see "Products"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1717668828209' status='failed' stop='1717668829363'>
+                            <name>I click "Suace Labs Backpack"</name>
+                            <title>I click "Suace Labs Backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='08dea672-36bd-4eb1-805b-8cbe6dbc777d-attachment.png' type='image/png' size='245709'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "Suace Labs Backpack" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "Suace Labs Backpack" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/MokshaShah/Documents/Final/Run/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)
+                    at assertElementExists (/Users/MokshaShah/Documents/Final/Run/node_modules/codeceptjs/lib/helper/Playwright.js:3613:11)
+                    at Playwright.proceedClick (/Users/MokshaShah/Documents/Final/Run/node_modules/codeceptjs/lib/helper/Playwright.js:3375:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
